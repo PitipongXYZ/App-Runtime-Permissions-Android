@@ -8,15 +8,10 @@ Google docs is [here](https://developer.android.com/preview/features/runtime-per
 ## How to integrate into your app?
 Integrating the library into you app is extremely easy. A few changes in the build gradle and your all ready to user Runtime permissions library. Make the following changes to build.gradle inside you app.
 ```java
-repositories {
-  maven {
-    url 'https://dl.bintray.com/mukeshsolanki/maven/'
-  }
-}
 .....
 dependencies {
   ...
-  compile 'com.mukeshsolanki.requestpermissions:requestruntimepermissions:0.0.2'
+  compile 'com.mukeshsolanki.requestpermissions:requestruntimepermissions:0.0.3'
 }
 ```
 
@@ -28,7 +23,7 @@ Okay seems like you integrated the library in your project but **how do you use 
 ```
 This will create an object of the Runtime Permission class for you. Make sure it's an object of **com.mukeshsolanki.requestpermissions.RuntimePermission**
 To check if the app has a specific permission you can call `runtimePermission.hasPermission(Activity activity, String permission);` or if you want to check 
-whether the app has multiple permission you can call `runtimePermission.hasPermissions(Activity activity, String[] permissions)`. 
+whether the app has multiple permission you can call `runtimePermission.hasPermission(Activity activity, String[] permissions)`.
 
 <img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*DJTWuO_J8QxKciSAjFWQCg.png" width="400" height="250" />
 
