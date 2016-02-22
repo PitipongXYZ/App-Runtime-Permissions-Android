@@ -1,9 +1,3 @@
-repositories {
-  maven {
-    url 'https://dl.bintray.com/mukeshsolanki/maven/'
-  }
-}
-
 apply plugin: 'com.android.application'
 
 android {
@@ -27,7 +21,6 @@ android {
 
 dependencies {
   compile fileTree(dir: 'libs', include: ['*.jar'])
-  testCompile 'junit:junit:4.12'
   compile 'com.android.support:appcompat-v7:23.1.1'
-  compile 'com.mukeshsolanki.requestpermissions:requestruntimepermissions:0.0.2'
+  compile 'com.mukeshsolanki.requestpermissions:requestruntimepermissions:0.0.3'
 }
