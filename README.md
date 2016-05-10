@@ -11,7 +11,7 @@ Integrating the library into you app is extremely easy. A few changes in the bui
 .....
 dependencies {
   ...
-  compile 'com.mukesh:permissions:1.0.0'
+  compile 'com.mukesh:permissions:1.0.1'
 }
 ```
 
