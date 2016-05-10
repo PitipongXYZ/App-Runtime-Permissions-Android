@@ -2,7 +2,7 @@
 A simple library that will remove all the boilerplate code and speed up your work with new Runtime Permissions introduced in Android M.
 ## What are Runtime Permissions?
 
-<img src="http://chintanrathod.com/wp-content/uploads/2015/06/Android-M-Permission1.jpg" width="500" height="839" />
+<img src="http://openattitude.com/wp-content/uploads/2015/06/m-permissions-03-location.png" width="500" height="839" />
 
 Google docs is [here](https://developer.android.com/preview/features/runtime-permissions.html). Unlike the traditional way of asking permission Android M increased its security by enforcing apps to ask permissions on the fly as and when the user requests for a feature that requires those permissions. These permissions can also be revoked by the user at any time.
 ## How to integrate into your app?
@@ -11,7 +11,7 @@ Integrating the library into you app is extremely easy. A few changes in the bui
 .....
 dependencies {
   ...
-  compile 'com.mukeshsolanki.requestpermissions:requestruntimepermissions:0.0.3'
+  compile 'com.mukesh:permissions:1.0.0'
 }
 ```
 
