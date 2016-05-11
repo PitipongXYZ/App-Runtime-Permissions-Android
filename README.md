@@ -19,7 +19,7 @@ dependencies {
 Okay seems like you integrated the library in your project but **how do you use it**? Well its really easy just follow the steps below.
 
 ```
- RuntimePermission runtimePermission = new RuntimePermission();
+ AppPermissions runtimePermission = new AppPermissions();
 ```
 This will create an object of the Runtime Permission class for you. Make sure it's an object of **com.mukeshsolanki.requestpermissions.RuntimePermission**
 To check if the app has a specific permission you can call `runtimePermission.hasPermission(Activity activity, String permission);` or if you want to check 
