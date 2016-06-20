@@ -21,7 +21,7 @@ Okay seems like you integrated the library in your project but **how do you use 
 ```
  AppPermissions runtimePermission = new AppPermissions();
 ```
-This will create an object of the Runtime Permission class for you. Make sure it's an object of ** com.mukesh.permissions.AppPermissions**
+This will create an object of the Runtime Permission class for you. Make sure it's an object of **com.mukesh.permissions.AppPermissions**
 To check if the app has a specific permission you can call `runtimePermission.hasPermission(Activity activity, String permission);` or if you want to check 
 whether the app has multiple permission you can call `runtimePermission.hasPermission(Activity activity, String[] permissions)`.
 
